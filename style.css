@@ -385,6 +385,16 @@ form .send-btn:hover{
     line-height: 1.8rem;
 }
 
+.copyright p{
+    display:flexbox;
+}
+
+.copyright a i{
+    color: var(--2nd-main-color);
+    font-size: 2rem;
+}
+
+
 @media (max-width:1430px) {
     header{
         padding: 25px 3%;
