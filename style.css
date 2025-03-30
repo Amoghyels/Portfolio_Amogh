@@ -18,6 +18,10 @@
   --p-font: 1rem;
 }
 
+html {
+  width: fit-content;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -89,6 +93,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .home-img img {
@@ -156,6 +161,7 @@ section {
   grid-template-columns: repeat(2, 2fr);
   grid-gap: 5rem;
   align-items: center;
+  /* margin-top: 6rem; */
 }
 
 /* Modified about image to be circular */
